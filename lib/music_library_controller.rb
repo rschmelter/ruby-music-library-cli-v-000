@@ -21,5 +21,6 @@ class MusicLibraryController
 
       input = gets.strip
     end
+    end
 
 end
