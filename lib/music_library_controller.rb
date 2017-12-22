@@ -90,10 +90,7 @@ class MusicLibraryController
     elsif @input == "play song"
       self.play_song
     else
-
-
-
-    nil
+      self.call
 
 
     end
