@@ -3,6 +3,7 @@ class MusicLibraryController
   def initialize(path= "./db/mp3s")
     MusicImporter.new(path).import
     @input = ""
+    self.input
   end
 
   def call
