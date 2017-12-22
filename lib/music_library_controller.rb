@@ -3,7 +3,7 @@ class MusicLibraryController
   def initialize(path= "./db/mp3s")
     MusicImporter.new(path).import
     @input = ""
-    self.input
+
   end
 
   def call
@@ -20,7 +20,7 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
 
-      @input = gets.strip
+      self.input
     end
   end
 
@@ -76,12 +76,11 @@ class MusicLibraryController
   end
 
   def input
+    @input = gets.strip
     if @input == "list songs"
       self.list_songs
-    else
-      nil
+      
     end
-  end
 
 
 end
