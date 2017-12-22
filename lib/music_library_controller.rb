@@ -79,7 +79,10 @@ class MusicLibraryController
     @input = gets.strip
     if @input == "list songs"
       self.list_songs
-      
+    elsif @input == "list artists"
+      self.list_artists
+    else
+      nil
     end
 
 
