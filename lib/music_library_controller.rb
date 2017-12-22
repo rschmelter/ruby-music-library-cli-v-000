@@ -87,10 +87,10 @@ class MusicLibraryController
       self.list_artist
     else
     nil
-      
-      
+
+
     end
-    
+
   end
 
 
