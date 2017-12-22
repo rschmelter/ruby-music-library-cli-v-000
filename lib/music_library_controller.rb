@@ -79,7 +79,7 @@ class MusicLibraryController
     if @input == "list songs"
       self.list_songs
     else
-      self.call
+      nil
     end
   end
 
