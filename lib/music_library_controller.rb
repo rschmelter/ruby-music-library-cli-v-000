@@ -74,9 +74,10 @@ class MusicLibraryController
     puts "Playing #{song.name} by #{song.artist.name}" if song
   end
 
-  # def input
-  #   if
-  # end
+  def input
+    if @input = "list songs"
+      self.list_songs
+  end
 
 
 end
