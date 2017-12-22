@@ -81,10 +81,17 @@ class MusicLibraryController
       self.list_songs
     elsif @input == "list artists"
       self.list_artists
+    elsif @input == "list genres"
+      self.list_genres
+    elsif @input == "list artist"
+      self.list_artist
     else
-      nil
+    nil
+      
+      
     end
-    end
+    
+  end
 
 
 end
