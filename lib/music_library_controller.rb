@@ -75,7 +75,7 @@ class MusicLibraryController
   end
 
   def input
-    if @input = "list songs"
+    if @input == "list songs"
       self.list_songs
   end
 
